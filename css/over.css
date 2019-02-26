@@ -1,0 +1,50 @@
+.main{
+	position: relative;
+	width: 50%;
+}
+/*img{
+	width: 100%;
+	height: auto;
+	display: block;
+	z-index: 90;
+	
+}*/
+.overlay{
+	position: absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: .5s linear;
+	background-color: black;
+	opacity:0;
+	filter:alpah(opacity=0);
+	
+}
+.main:hover .overlay{
+	opacity: .8;
+}
+.text{
+	color: #fff;
+	font-size: 15px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	
+}
+/*<h2>淡入效果</h2>
+<p>鼠标移动到图片上查看效果</p>
+
+<div class="container">
+  <img src="https://static.runoob.com/images/mix/img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+一般应用结构以及样式
+* */

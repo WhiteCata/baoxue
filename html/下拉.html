@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+		ul li{
+			list-style: none;
+		}
+		.float-header{
+			padding:0 76px;
+			height: 42px;
+			width: 1280px;
+			position: absolute;
+			top: 42px;
+			background-color: rgb(1,37,86);
+			margin:0 auto;
+		}
+		.float-header>div{
+			display: inline-block;
+			float: left;
+			height: 42px;
+		}
+		.banner{
+		
+			width: 140px;
+			height: 42px;
+			padding-left: 10px;
+			background: url(../img/banner.png)  no-repeat 0;
+			background-size: auto 30px;
+			background-origin: content-box;
+			cursor: pointer;
+		}
+		.float-header .category{
+			width: 760px;
+			
+		}
+		.category-main-list{
+			cursor: pointer;
+			font-size: 15px;
+			font-weight: 700;
+			color: #cfd2d7;
+			line-height: 42px;
+			height: 42px;
+			position: relative;
+			/*overflow: hidden;*/
+		}
+		.category-main-list li{
+			float: left;
+			margin-right: 52px;
+		
+		}
+		.dropbtn2{
+			position: relative;
+		}
+		.dropdown2:hover .dropbtn2{
+			color: red;
+			border-bottom: 1px solid blue;
+		}
+		.dropcontent2{
+			position: absolute;
+			top: 42px;
+			left: -226px;
+			display: none;
+			min-width: 1280px;
+			background-color: red;
+			padding-left: 120px;
+		}
+		.dropcontent2 a{
+			display: inline-block;
+			width: 100px;
+			margin: 10px;
+			background: url(../img/1.png) no-repeat ;
+			background-size: auto 50px;
+			padding-top: 50px;
+			margin-right: 30px;
+			text-align: center;
+			background-origin: padding-box;
+			
+		}
+		.dropdown2:hover .dropcontent2{
+			display: block;
+		}
+		</style>
+	</head>
+	<body>
+		
+		
+		<div class="float-header ">
+				<div class=" banner "></div>
+				<div class="category">
+					<ul class="category-main-list">
+						<li><a href="#">首页</a></li>
+						<li class="dropdown2">
+							<a href="#" class="dropbtn2">居家生活 </a>
+							<div class="dropcontent2">
+								<a href="#">产品
+									
+								</a>
+								<a href="#">2</a>
+								<a href="#">3</a>
+								<a href="#">4</a>
+								<a href="#">5</a>
+								<a href="#">6</a>
+								<a href="#">7</a>
+								<a href="#">8</a>
+								<a href="#">9</a>
+								<a href="#">0</a>
+							</div>
+						</li>
+						<li><a href="#">手办模型</a></li>
+						<li><a href="#">数码外设</a></li>
+						<li><a href="#">佩饰挂件</a></li>
+						<li><a href="#">服装服饰</a></li>	
+						<li><a href="#">图书文具</a></li>
+					</ul>
+				</div>
+	</body>
+</html>

@@ -1,0 +1,316 @@
+html,body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	/*width: 100%;
+	height: 100%;*/
+	overflow: auto;
+}
+.tip{
+	box-sizing: border-box;
+	width: 1280px;
+	height: 31px;
+	line-height: 31px;
+	padding-left:76px ;
+	padding-right: 76px;
+	/*border: 1px solid red;*/
+	background-color: rgb(0,37,78);
+}
+#span,p{
+	float: left;
+	margin:0 5px;
+	color: rgb(127,147,169);
+	
+}
+.laba{
+	font-size: 18px;
+	width: 10px;
+}
+p,p>span,p>a{
+	float: left;
+	color: rgb(0,160,208);
+	margin:0 5px;
+}
+/*列表*/
+.list {
+	float: right;
+	/*overflow: hidden;*/	
+	
+}
+.list li{
+	float: left;
+	color: rgb(127,147,169);
+/*	display: inline-block;*/
+		
+}
+
+li a,.dropbtn{
+	display: inline-block;
+}
+.list a,.dropbtn{
+	float:left;
+	display: inline-block;
+	padding: 0 8px;
+	color: rgb(127,147,169);
+	text-align: center;
+
+}
+	.list-card{
+		display: none;
+		/*position: absolute;*/
+		width: 80px;
+		height: 60px;
+		line-height: 25px;
+		margin-top: -2px;
+		background-color: rgb(0,25,54);
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,.4);
+		
+	}
+	.list-card a{
+		display: block;
+		text-align: center;
+		
+		
+		}
+	.list-card a:hover{
+		color: white;
+	}
+	.dropdown:hover .list-card{
+		display: block;
+	}
+
+/*二级菜单结束*/
+
+
+.nav-main{
+	box-sizing: border-box;
+	width: 1280px;
+	height: 151px;
+	background: linear-gradient(to right,rgba(1,36,81,.9),rgba(1,54,111,.8),rgba(1,55,113,.7),rgba(1,60,125,.8),rgba(0,49,107,.9));
+	/*position: relative;*/
+	
+	
+}
+.logo{
+	float: left;
+	width: 367px;
+	margin-left: 76px;
+	margin-top: 45px;
+	
+}
+.searchs{
+	float: right;
+	margin-top:75px;
+	margin-right: -190px;
+	
+}
+.searchs input{
+	 border: none;
+	 border-bottom: 1px solid rgb(0,37,78);
+	 width: 250px;
+	 height: 20px;
+	 padding: 0 10px;
+	 color: #c9d8e6;
+	 background: linear-gradient(to right,rgba(69,108,151,.9),rgba(72,111,152,.8));
+	 
+}
+
+.searchs .first{
+	width: 18px;
+	height: 18px;
+	margin-right: 20px
+}
+
+.searchs .last{
+	position: relative;
+}
+.searchs span{
+	background-color: rgb(237,135,29);
+	color: white;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 103px;
+	right: 40px;
+}
+
+.nav-bar{
+	box-sizing: border-box;
+	background-color: rgb(0,34,74);
+	width:1280px;
+	height:42px;
+	
+
+}
+.fix-width{
+	width: 1090px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.float-header{
+			padding:0 76px;
+			height: 42px;
+			width: 1280px;
+			position: absolute;
+			top: -42px;
+			background-color: rgb(1,37,86);
+			margin:0 auto;
+		}
+		.float-header>div{
+			display: inline-block;
+			float: left;
+			height: 42px;
+		}
+		.banner{
+		
+			width: 140px;
+			height: 42px;
+			padding-left: 10px;
+			background: url(../img/banner.png)  no-repeat 0;
+			background-size: auto 30px;
+			background-origin: content-box;
+			cursor: pointer;
+		}
+		.float-header .category{
+			width: 760px;
+			
+		}
+		.category-main-list{
+			cursor: pointer;
+			font-size: 15px;
+			font-weight: 700;
+			color: #cfd2d7;
+			line-height: 42px;
+			height: 42px;
+			position: relative;
+			/*overflow: hidden;*/
+		}
+		.category-main-list li{
+			float: left;
+			margin-right: 52px;
+		
+		}
+		.dropbtn2{
+			position: relative;
+		}
+		.dropdown2:hover .dropbtn2{
+			color: red;
+			border-bottom: 1px solid blue;
+		}
+		.dropcontent2{
+			position: absolute;
+			top: 30x;
+			left: -226px;
+			display: none;
+			min-width: 1280px;
+			background-color: red;
+			padding-left: 120px;
+		}
+		.dropcontent2 a{
+			display: inline-block;
+			width: 100px;
+			margin: 10px;
+			background: url(../img/1.png) no-repeat ;
+			background-size: auto 35px;
+			padding-top: 20px;
+			margin-right: 20px;
+			background-origin: padding-box;
+			
+		}
+		.dropdown2:hover .dropcontent2{
+			display: block;
+		}
+		
+		.float-header .search{
+			height: 42px;
+			line-height: 42px;
+			position: absolute;
+			right: 160px;
+			width: 400px;
+		}
+		.float-header .search span{
+			color: rgb(144,206,230);
+			font-size: 15px;
+			padding-right: 10px;
+		}
+		.float-header .search input{
+			width: 200px;
+			border: none;
+			background-color: rgb(1,37,86);
+			border-bottom: 1px solid rgb(0,52,108);
+			color: rgb(0,52,108);
+		}
+
+		.float-header .searchs{
+			position: absolute;
+			right: 460px;
+			top: -60px;
+			cursor: pointer;
+		}
+		.float-header .user{
+			position: relative;
+			background: url(../img/user.png) no-repeat 0;
+			background-size: auto 20px;
+			background-origin: content-box;
+			left: 50px;
+			cursor: pointer;
+			
+		}
+		
+		.float-header .user .user-list{
+			position: relative;
+			top: 42px;
+			left: -20px;
+			min-width: 60px;
+			
+		}
+		.float-header .user .user-list a{
+			box-sizing: border-box;
+			display: block;
+			background-color: rgb(2,27,58);
+			min-width: 60px;
+			text-align: center;
+			padding: 5px 10px;
+			border: 1px solid rgb(55,66,84);
+	
+		}
+		.float-header .user .user-list a:last-child{
+			border-top: none;
+		}
+		.float-header .user:hover .user-list:hover a{
+			color: white;
+		}
+		.float-header .cart{
+			position: relative;
+			background: url(../img/shop.png) no-repeat top left;
+			width: 60px;
+			background-size: auto 20px;
+			left: 50px;
+			background-origin: content-box;
+			top: 12px;
+			cursor: pointer;
+			
+		}
+		.float-header .cart .co{
+			position: absolute;
+			top: -10px;
+			right:25px;
+			color: red;
+			background-color: rgb(237,135,29);
+			display: block;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			color: white;
+			font-size: 15px;
+			text-align: center;
+			line-height: 20px;
+		}
+
+
+
+
+

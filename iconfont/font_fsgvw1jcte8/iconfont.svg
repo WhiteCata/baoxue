@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="laba" unicode="&#58917;" d="M573.44 25.6h-110.08L307.2 189.44H153.6l-2.56 378.88h143.36L463.36 742.4h110.08v-716.8zM230.4 266.24h110.08l153.6-163.84V665.6l-168.96-174.08H227.84l2.56-225.28zM673.28 99.84l-23.04 74.24c81.92 25.6 135.68 107.52 130.56 197.12-5.12 79.36-53.76 145.92-125.44 171.52l25.6 71.68c99.84-35.84 168.96-130.56 176.64-238.08 5.12-125.44-69.12-240.64-184.32-276.48z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

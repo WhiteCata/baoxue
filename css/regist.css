@@ -1,0 +1,249 @@
+html,body{
+	width: 100%;
+	background-color: rgb(239,239,239);
+}
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+a{text-decoration: none;}
+.header{
+	width: 1000px;
+	height: 131px;
+	margin: 0 auto;
+	/*background-color: red;*/
+	
+	
+}
+.header .logo{
+	float: left;
+	width: 300px;
+	height: 60px;
+	margin-top: 25px;
+	background-position: -50px -18px;
+}
+.header .spring{
+	width: 200px;
+	background: url(../img/spring.png) no-repeat;
+}
+.header .left{
+	width: 144px;
+	height: 20px;
+	float: right;
+	margin-top: 50px;
+	font-size: 18px;
+}
+.header .left a{
+	color: rgb(202,82,82);
+}
+.main{
+	width: 1000px;
+	height: 960px;
+	margin: 0 auto;
+	margin-bottom: 3px;
+	/*background-color: yellow;*/
+	box-shadow: 0px 5px 2px 4px rgb(204,202,202) ;
+	border-radius: 5px;
+	
+}
+.main .reg-logo{
+	width: 320px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 44px;
+	padding-bottom: 24px;
+}
+.reg-logo .select{
+	background-color: rgb(202,82,82);
+	color: white;
+}
+.reg-logo .left{
+	float: left;
+	width: 159px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	
+}
+.reg-logo .right{
+	display: block;
+	float: left;
+	width: 159px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+	color: rgb(102,102,102);
+	
+}
+.reg-logo .right .new{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: -12px;
+	right: 7px;
+	font-size: 14px;
+	background-color: rgb(202,82,82);
+	border-radius: 500px 21px 20px 0 ;
+	
+}
+/*重要学习部分*/
+
+.main .main-body{
+	width: 1000px;
+	height: 620px;
+	/*background-color: mediumspringgreen;*/
+}
+
+.main-body .first ,.main-body .second,.main-body .third{
+	width: 100%;
+	height: 72px;
+	/*background-color: red;*/
+}
+.main-body .ulabel{
+	float: left;
+	width: 340px;
+	height: 45px;
+	line-height:45px ;
+	text-align: right;
+	margin-top: 12px;
+	font-size: 18px;
+	color: #333;
+}
+.main-body .first .email,.main-body .second .password,.main-body .third .rpassword,.main-body .iphone .ip{
+	float: left;
+	width: 320px;
+	height: 44px;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	text-indent: .5em;
+	margin-top: 12px;
+}
+
+
+
+.main-body  .sug{
+	float: left;
+	width: 320px;
+	height: 44px;
+	margin-top: 12px;
+	margin-left: 5px;
+	font-size: 14px;
+	/*border: 1px solid blue;*/
+	text-align: center;
+	line-height: 44px;
+	color: yellow;
+}
+
+.main-body .input{
+	width: 1000px;
+	height: 44px;
+	/*background-color: green;*/
+
+}
+
+.main-body .input .uulabel{
+	width: 340px;
+	height: 32px;
+	float: left;
+	text-align: right;
+	margin-top: 12px;
+	font-size: 18px;
+}
+
+.main-body .input .pic{
+	float: left;
+	width: 318px;
+	height: 40px;
+	/*color: rgb(245,246,249);*/
+	background:radial-gradient(rgb(240,243,245),rgb(245,247,248),rgb(246,248,249));
+	border: 1px solid rgb(221,221,221);
+	
+	
+}
+.main-body .input .pic .spr{
+	float: left;
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-top: 12px;
+	position: relative;
+	left: 80px;
+	background: url(../img/pic.png) repeat ;
+	background-position: -68px 342px;	
+}
+
+.main-body .input .pic .str{
+	float: left;
+	position: relative;
+	left: 100px;
+	top: 10px;
+	color: rgb(69,110,176);
+}
+
+
+
+
+
+
+
+/*重要学习部分*/
+
+
+.main .m-foot{
+	position: relative;
+	top: 300px;
+	display: block;
+	width: 900px;
+	height: 180px;
+	margin: 0 auto;
+	border-radius: 2px;
+	overflow: hidden;
+	/*background-color: chocolate;*/
+}
+.m-foot img{
+	width: 900px;
+	height: 100px;
+	z-index: 333;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+	width: 1000px;
+	height: 46px;
+	padding: 30px 0;
+	margin: 0 auto;
+
+}
+.footer p{
+	color: white;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+.footer a{
+	color: white;
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+

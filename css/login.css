@@ -1,0 +1,97 @@
+
+.loginContent{
+	padding-left: 65%;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: url(../img/login-bg.jpg) no-repeat ;
+	background-size: cover;
+	position: relative;
+	height: 650px;
+}
+.loginContent .logFrame{
+	
+	width: 365px;
+	height: 348px;
+	position: absolute;
+	right: 80px;
+	top: 150px;
+	background-color: white;
+	z-index: 888;
+	padding: 20px 25px 52px 25px;
+}
+.logFrame .title{
+	color: rgb(120,120,120);
+	font-size: 18px;
+	padding: 11px 0;
+	border-bottom: 1px solid rgb(239,239,239);
+}
+.logFrame .log-main{
+	padding-top: 22px;
+	width: 312px;
+}
+.log-main .email,.log-main .pwd{
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	margin-bottom: 15px;
+	
+	
+}
+.email .img-content,.pwd .img-content{
+	float: left;
+	width: 36px;
+	height: 30px;
+	background: url(../img/spring.png) repeat;
+	
+	
+}
+
+.email .img-content{
+	background-position: -1040px -588px;
+}
+.pwd .img-content{
+	background-position: -1080px -588px;
+}
+
+.email .content input,.pwd .content input{
+	display: inline-block;
+	width: 260px;
+	height: 24px;
+}
+ .log-main .p .sec {
+ 	width: 36px;
+ 	height: 30px;
+ 	float: left;
+ 	/*margin-left: 40px;*/
+ 	background: url(../img/spring.png) repeat;
+ 	background-position: -634px -402px;
+ }
+ .log-main .p p{
+ 		font-size: 12px;
+ 		display: inline-block;
+ }
+.log-main .log{
+	width: 172px;
+	height: 44px;
+	display: block;
+	margin-top: 15px;
+	padding-left:45%;
+	font-size: 18px;
+	line-height: 44px;
+	color: white;
+	background-color: rgb(0,174,255);
+}
+.pp {
+	box-sizing: border-box;
+	width: 312px;
+	height: 27px;
+	/*background-color: red;*/
+	margin-top: 18px;
+	font-size: 12px;
+}
+.pp .left{float: right;}
+.pp .right{
+	float: left;
+}
+
+
